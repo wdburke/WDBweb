@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About Me";
 }
 
 <hgroup class="title">
@@ -8,17 +8,17 @@
 </hgroup>
 
 <article>
-    <p>
-        Use this area to provide additional information.
-    </p>
-
-    <p>
-        Use this area to provide additional information.
-    </p>
-
-    <p>
-        Use this area to provide additional information.
-    </p>
+    <section>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit efficitur libero et mattis. Nullam non enim quis sem luctus sodales sit amet id risus. Aenean ut lorem orci. Nam ultrices odio nunc, eu eleifend massa semper ac. Aliquam blandit efficitur augue at euismod. Praesent molestie ac massa eget ornare. Morbi sagittis viverra massa, tincidunt pretium nulla rutrum ac. Vestibulum placerat sed arcu a lobortis. Aenean ultricies vel mauris et consectetur. Aliquam ultricies ex eu condimentum pellentesque. Suspendisse nec metus tristique, consequat tellus at, ultricies lectus. Vestibulum in nisl id erat laoreet scelerisque pellentesque quis leo. Ut at mollis nisi. Etiam feugiat augue et nisi placerat, quis consectetur risus fermentum.
+        </p>
+        <p>
+            Nullam ultricies scelerisque est. Cras vel ante non urna tempor rutrum vitae ac odio. Fusce id laoreet nulla, quis sollicitudin lorem. Maecenas a odio in risus tempor porttitor eu quis odio. Nam aliquam condimentum metus blandit feugiat. Nulla eget purus et tellus imperdiet lacinia sed vehicula quam. Nullam aliquet nisl condimentum sapien iaculis, nec vehicula nulla malesuada. Nulla finibus mi ac augue lobortis consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque viverra ultricies facilisis. Sed ligula purus, ultricies sed purus sed, consequat ultrices nulla. Phasellus justo lorem, lacinia eget tincidunt a, tempus in ante.
+        </p>
+        <p>
+            Etiam luctus tincidunt posuere. In sem tortor, mattis ac leo et, venenatis scelerisque dui. Curabitur id mauris iaculis, congue purus vestibulum, lobortis leo. Praesent sollicitudin massa sed est sagittis porttitor. Nam fermentum, felis id vestibulum malesuada, eros purus mattis enim, ac tempus augue urna ac felis. Cras euismod porttitor orci a accumsan. Vestibulum est erat, fringilla nec neque elementum, sagittis volutpat arcu. Vivamus suscipit vulputate diam, nec vehicula ante tincidunt quis. Curabitur dictum, arcu quis dictum pellentesque, lacus est consequat tellus, eget imperdiet justo eros eget sem. Donec vehicula consectetur nulla, vel tincidunt velit laoreet dictum. Nam et finibus arcu, et dictum massa. Donec ultricies sagittis risus. Phasellus pretium enim a accumsan laoreet. In magna risus, auctor sed auctor vel, porttitor vitae massa. Aliquam feugiat suscipit metus vel commodo.
+        </p>
+    </section>
 </article>
 
 <aside>
@@ -26,9 +26,5 @@
     <p>
         Use this area to provide additional information.
     </p>
-    <ul>
-        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-        <li>@Html.ActionLink("About", "About", "Home")</li>
-        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-    </ul>
+    @Html.Partial("_Menu",true)
 </aside>
