@@ -177,18 +177,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -246,40 +242,10 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
-    <Content Include="Content\themes\ie.css" />
-    <Content Include="Content\themes\print.css" />
-    <Content Include="Content\themes\screen.css" />
     <Content Include="Content\themes\site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="config.rb" />
-    <Content Include="sass\ie.scss">
-      <Compile>True</Compile>
-      <Minify>True</Minify>
-      <OutputFolder>c:\users\wburke\documents\visual studio 2012\Projects\WDBWeb\WDBWeb\stylesheets</OutputFolder>
-      <IgnoreWarnings>True</IgnoreWarnings>
-      <IgnoreErrors>True</IgnoreErrors>
-      <CompileStyle>Nested</CompileStyle>
-      <DebugInfo>False</DebugInfo>
-    </Content>
-    <Content Include="sass\print.scss">
-      <Compile>True</Compile>
-      <Minify>True</Minify>
-      <OutputFolder>c:\users\wburke\documents\visual studio 2012\Projects\WDBWeb\WDBWeb\stylesheets</OutputFolder>
-      <IgnoreWarnings>True</IgnoreWarnings>
-      <IgnoreErrors>True</IgnoreErrors>
-      <CompileStyle>Nested</CompileStyle>
-      <DebugInfo>False</DebugInfo>
-    </Content>
-    <Content Include="sass\screen.scss">
-      <Compile>True</Compile>
-      <Minify>True</Minify>
-      <OutputFolder>c:\users\wburke\documents\visual studio 2012\Projects\WDBWeb\WDBWeb\stylesheets</OutputFolder>
-      <IgnoreWarnings>True</IgnoreWarnings>
-      <IgnoreErrors>True</IgnoreErrors>
-      <CompileStyle>Nested</CompileStyle>
-      <DebugInfo>False</DebugInfo>
-    </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -325,15 +291,6 @@
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\_RemoveExternalLoginsPartial.cshtml" />
-    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Manage.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
